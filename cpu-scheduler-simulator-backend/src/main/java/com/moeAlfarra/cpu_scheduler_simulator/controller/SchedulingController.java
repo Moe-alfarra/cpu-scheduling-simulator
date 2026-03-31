@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/schedule")
-@CrossOrigin(origins = "\"https://your-frontend-name.vercel.app\"") // Change if running frontend locally/different host
+@CrossOrigin(origins = {"https://cpu-scheduling-simulator-umber.vercel.app"}) // Change if running frontend locally/different host
 public class SchedulingController {
 
     @PostMapping
