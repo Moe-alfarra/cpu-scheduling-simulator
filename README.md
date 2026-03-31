@@ -6,6 +6,7 @@ The simulator provides an interactive interface for entering processes, running 
 Hosted on Vercel: https://cpu-scheduling-simulator-umber.vercel.app/
 
 ---
+<img width="1886" height="900" alt="image" src="https://github.com/user-attachments/assets/a035beb0-ba1e-49b5-ad99-86e64fb2310e" />
 
 ## Tech Stack
 
