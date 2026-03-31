@@ -497,37 +497,6 @@ export default function App() {
               )}
             </motion.div>
 
-            <div className="metrics-grid">
-              <MetricCard
-                icon={Clock3}
-                label="Average Waiting Time"
-                value={formatMetric(result?.averageWT)}
-                suffix=""
-                delay={0.04}
-              />
-              <MetricCard
-                icon={BarChart3}
-                label="Average Turnaround Time"
-                value={formatMetric(result?.averageTAT)}
-                suffix=""
-                delay={0.08}
-              />
-              <MetricCard
-                icon={Gauge}
-                label="CPU Utilization"
-                value={formatMetric(result?.cpuUtilization)}
-                suffix="%"
-                delay={0.12}
-              />
-              <MetricCard
-                icon={Activity}
-                label="Throughput"
-                value={formatMetric(result?.throughput)}
-                suffix=""
-                delay={0.16}
-              />
-            </div>
-
             <motion.div
               className="glass panel"
               initial={{ opacity: 0, y: 16 }}
@@ -578,9 +547,40 @@ export default function App() {
                 </table>
               </div>
             </motion.div>
+               <div className="metrics-grid">
+                  <MetricCard
+                      icon={Clock3}
+                      label="Average Waiting Time"
+                      value={formatMetric(result?.averageWT)}
+                      suffix=""
+                      delay={0.04}
+                  />
+                  <MetricCard
+                       icon={BarChart3}
+                       label="Average Turnaround Time"
+                       value={formatMetric(result?.averageTAT)}
+                       suffix=""
+                       delay={0.08}
+                  />
+                  <MetricCard
+                       icon={Gauge}
+                       label="CPU Utilization"
+                       value={formatMetric(result?.cpuUtilization)}
+                       suffix="%"
+                       delay={0.12}
+                  />
+                  <MetricCard
+                       icon={Activity}
+                       label="Throughput"
+                       value={formatMetric(result?.throughput)}
+                       suffix=""
+                       delay={0.16}
+                  />
+                </div>
           </div>
         </section>
       </main>
     </div>
   );
 }
+
