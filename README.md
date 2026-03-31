@@ -217,4 +217,3 @@ P4        3         1
 ## Author
 
 Mohammed Alfarra
-Computer Science Graduate
