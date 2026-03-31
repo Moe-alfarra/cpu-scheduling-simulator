@@ -1,9 +1,10 @@
+Hosted on Vercel: Hosted on Vercel: https://cpu-scheduling-simulator-umber.vercel.app/
+
 # CPU Scheduling Simulator
 
 A full-stack **CPU Scheduling Simulator** that visualizes how different CPU scheduling algorithms execute processes.
 The simulator provides an interactive interface for entering processes, running scheduling algorithms, and visualizing execution using a **Gantt chart**.
 
-Hosted on Vercel: https://cpu-scheduling-simulator-umber.vercel.app/
 ---
 
 ## Tech Stack
