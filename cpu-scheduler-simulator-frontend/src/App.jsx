@@ -16,6 +16,7 @@ import {
   Layers3,
 } from "lucide-react";
 
+//const API_URL = "http://localhost:8080/api/schedule";
 const API_URL = `${import.meta.env.VITE_API_URL}/api/schedule`; //Change if running backend locally/different host
 
 const starterProcesses = [
